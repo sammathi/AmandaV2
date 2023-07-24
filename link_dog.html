@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rat Under Paper - Dog</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            width: 50%;
+            margin: auto;
+        }
+
+        @font-face {
+            font-family: 'DuffyScriptBold';
+            src: url('fonts/DuffyScript_Bold.otf') format('opentype');
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'DuffyScriptRegular';
+            src: url('fonts/DuffyScript_Regular.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .title {
+            font-family: 'DuffyScriptBold', sans-serif;
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 1px;
+            background-color: #000;
+            border: none;
+        }
+
+        .grid div {
+            overflow: hidden;
+            padding: 10px;
+            box-sizing: border-box;
+            background: white;
+        }
+
+        .grid img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .link {
+            font-family: 'DuffyScriptRegular', sans-serif;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title">Dog</h1>
+    <div class="grid">
+        <div><img src="images/dog 2020 copy.jpg" alt="Image"></div>
+        <div><img src="images/dog EAU DE POOCH.jpg" alt="Image"></div>
+        <div><img src="images/dog KIND.jpg" alt="Image"></div>
+        <div><img src="images/dog Muffy015 copy.jpg" alt="Image"></div>
+        <div><img src="images/dog NY 2023 copy 2.jpg" alt="Image"></div>
+        <div><img src="images/dog proust pix.jpg" alt="Image"></div>
+        <div><img src="images/dog SIT copy copy.jpg" alt="Image"></div>
+        <div><img src="images/dog sparky.jpg" alt="Image"></div>
+        <div><img src="images/dog SUIT.jpg" alt="Image"></div>
+    </div>
+    <div class="link">
+        <a href="index.html">Home</a>
+    </div>
+</body>
+</html>

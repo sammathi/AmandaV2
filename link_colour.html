@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rat Under Paper - Colour</title>
+    <style>
+        /* Define the custom fonts */
+        @font-face {
+            font-family: 'DuffyScriptBold';
+            src: url('fonts/DuffyScript_Bold.otf') format('opentype');
+        }
+        @font-face {
+            font-family: 'DuffyScriptRegular';
+            src: url('fonts/DuffyScript_Regular.otf') format('opentype');
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            width: 50%;
+            margin: auto;
+        }
+        .title {
+            font-size: 4em;
+            margin-bottom: 20px;
+            font-family: 'DuffyScriptBold', cursive;
+            /* Apply the custom font to the h1.title element */
+        }
+        .link {
+            text-align: center;
+            margin-top: 20px; /* Increase the top margin for more space */
+            font-size: 2em; /* Adjust the font size as desired */
+            font-family: 'DuffyScriptRegular', cursive;
+            /* Apply the custom font to the link */
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px; 
+            border: none;
+        }
+        .grid div {
+            overflow: hidden;
+            padding: 10px; 
+            box-sizing: border-box;
+            background: white;
+        }
+        .grid img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title">Colour</h1>
+    <div class="grid">
+        <div><img src="images/colour 13 Letters.jpg" alt="Image"></div>
+        <div><img src="images/colour Arizona Hwys Sandwich Tour.jpg" alt="Image"></div>
+        <div><img src="images/colour aynrandsquare.jpg" alt="Image"></div>
+        <div><img src="images/colour GREAT CANADIAN LAYERS.jpg" alt="Image"></div>
+        <div><img src="images/colour heartz-retouched-WB.jpg" alt="Image"></div>
+        <div><img src="images/colour Kusama.jpg" alt="Image"></div>
+        <div><img src="images/colour QUEST.jpg" alt="Image"></div>
+        <div><img src="images/colour Riley Framed.jpg" alt="Image"></div>
+        <div><img src="images/colour XMASANGUS.jpg" alt="Image"></div>
+    </div>
+    <div class="link">
+        <a href="index.html">Home</a>
+    </div>
+
+</body>
+</html>

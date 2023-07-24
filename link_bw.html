@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rat Under Paper - B&amp;W</title>
+    <style>
+        @font-face {
+            font-family: 'DuffyScript_Bold';
+            src: url('fonts/DuffyScript_Bold.otf') format('opentype');
+            font-weight: bold;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'DuffyScript_Regular';
+            src: url('fonts/DuffyScript_Regular.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            width: 70%;
+            margin: auto;
+            font-family: 'DuffyScript_Regular', sans-serif;
+        }
+
+        .title {
+            font-family: 'DuffyScript_Bold', sans-serif;
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 1px;
+            background-color: #000;
+            border: none;
+        }
+
+        .grid div {
+            overflow: hidden;
+            padding: 10px;
+            box-sizing: border-box;
+            background: white;
+        }
+
+        .grid img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .link {
+            text-align: center;
+            margin-top: 20px;
+            font-family: 'DuffyScript_Regular', sans-serif;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="title">B&amp;W</h1>
+    <div class="grid">
+        <div><img src="images/b&w CRISP.jpg" alt="Image"></div>
+        <div><img src="images/b&w dahling.jpg" alt="Image"></div>
+        <div><img src="images/b&w eeeeeeeeeee.jpg" alt="Image"></div>
+        <div><img src="images/b&w forget.jpg" alt="Image"></div>
+        <div><img src="images/b&w HAMMER TIME.jpg" alt="Image"></div>
+        <div><img src="images/b&w misfit-2.jpg" alt="Image"></div>
+        <div><img src="images/b&w OPEN.jpg" alt="Image"></div>
+        <div><img src="images/b&w TICK copy copy.jpg" alt="Image"></div>
+        <div><img src="images/b&w WEAK.jpg" alt="Image"></div>
+    </div>
+    <div class="link">
+        <a href="index.html">Home</a>
+    </div>
+</body>
+</html>
